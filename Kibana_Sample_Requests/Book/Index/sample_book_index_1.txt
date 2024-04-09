@@ -1,0 +1,18 @@
+﻿POST /book-index/_doc
+{
+  "title": "Anadolu'nun Kayıp Şarkıları",
+  "abstract": "Bu eser, Anadolu topraklarının binlerce yıllık müzikal mirasını keşfetmeye yönelik bir yolculuğu anlatmaktadır. Eserde, tarihin derinliklerinden gelen ezgiler, modern yorumlarla harmanlanarak sunulmuştur. Anadolu'nun zengin kültürel dokusu, her bir nota ile okuyucuya aktarılmaktadır. Müzik, sadece bir sanat formu değil, aynı zamanda bir iletişim aracı olarak ele alınmış ve farklı kültürler arasındaki diyalog köprüsü olarak gösterilmiştir. Bu çalışma, müziğin evrenselliğini ve birleştirici gücünü vurgulamakta ve okuyucuyu, sesin sihirli dünyasında bir keşfe çıkarmaktadır.",
+  "publish_date": "2024-04-09",
+  "price": 42.50,
+  "stock": 120,
+  "categories": ["Müzik", "Kültür", "Tarih"],
+  "author": {
+    "firstname": "Ahmet",
+    "lastname": "Kaya"
+  },
+  "created_date": "2024-04-09",
+  "updated_date": "2024-04-09",
+  "created_by": 1,
+  "updated_by": 1,
+  "isactive": true
+}

@@ -1,0 +1,59 @@
+{
+  "mappings": {
+    "properties": {
+      "title": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "abstract": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "publish_date": {
+        "type": "date"
+      },
+      "price": {
+        "type": "double"
+      },
+      "stock": {
+        "type": "integer"
+      },
+      "categories": {
+        "type": "keyword"
+      },
+      "author": {
+        "properties": {
+          "firstname": {
+            "type": "text"
+          },
+          "lastname": {
+            "type": "text"
+          }
+        }
+      },
+      "created_date": {
+        "type": "date"
+      },
+      "updated_date": {
+        "type": "date"
+      },
+      "created_by": {
+        "type": "integer"
+      },
+      "updated_by": {
+        "type": "integer"
+      },
+      "isactive": {
+        "type": "boolean"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+POST /book-index/_doc
+{
+  "title": "Ege'nin Hüzünlü Rüzgarları",
+  "abstract": "Bu kitap, Ege Denizi'nin kıyılarında yaşayan insanların hikayelerini, denizin melteminde saklı hüzünleri ve sevinçleri anlatmaktadır. Ege'nin maviliklerine karışan yaşamlar, bu eserde şiirsel bir dille ele alınmıştır. Okuyucu, her sayfada Ege'nin tuzlu havasını hissedebilecek ve kıyıların sessiz çığlıklarını duyabilecektir. Kitap, aynı zamanda Ege'nin doğal güzelliklerini ve tarihi zenginliklerini de gözler önüne sermektedir. Ege'nin hüzünlü rüzgarları, okuyucuyu geçmişle geleceğin kesiştiği bir yolculuğa çıkaracak.",
+  "publish_date": "2024-04-09",
+  "price": 38.00,
+  "stock": 85,
+  "categories": ["Edebiyat", "Gezi", "Tarih"],
+  "author": {
+    "firstname": "Elif",
+    "lastname": "Şafak"
+  },
+  "created_date": "2024-04-09",
+  "updated_date": "2024-04-09",
+  "created_by": 2,
+  "updated_by": 2,
+  "isactive": true
+}

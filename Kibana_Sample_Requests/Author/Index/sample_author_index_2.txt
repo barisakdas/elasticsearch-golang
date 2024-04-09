@@ -1,0 +1,27 @@
+POST /author-index/_doc
+{
+  "first_name": "Leyla",
+  "last_name": "Gencer",
+  "birth_date": "1980-11-30",
+  "books": [
+    {
+      "_id": "2",
+      "title": "Operanın Kalbi",
+      "abstract": "Bu eser, opera sanatının büyüleyici dünyasına bir kapı aralıyor. Leyla Gencer'in kariyerine odaklanarak, opera sahnesinin perde arkasını, sanatçıların yaşamlarını ve sahne üzerindeki büyüyü anlatıyor. Kitap, opera tutkunları için olduğu kadar, bu sanat dalına yeni ilgi duyanlar için de kapsamlı bir başlangıç noktası sunuyor. 'Operanın Kalbi', müziğin en dramatik formunun derinliklerine inmek isteyen herkes için bir rehber.",
+      "publish_date": "2024-04-08",
+      "price": 60.00,
+      "stock": 200,
+      "categories": ["Müzik", "Sanat", "Biyografi"],
+      "created_date": "2024-04-08",
+      "updated_date": "2024-04-08",
+      "created_by": 102,
+      "updated_by": 102,
+      "isactive": true
+    }
+  ],
+  "created_date": "2024-04-08",
+  "updated_date": "2024-04-08",
+  "created_by": 102,
+  "updated_by": 102,
+  "isactive": true
+}

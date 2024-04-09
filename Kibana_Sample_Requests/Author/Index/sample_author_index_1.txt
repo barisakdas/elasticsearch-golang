@@ -1,0 +1,27 @@
+POST /author-index/_doc
+{
+  "first_name": "Mehmet",
+  "last_name": "Akif",
+  "birth_date": "1975-05-21",
+  "books": [
+    {
+      "_id": "1",
+      "title": "İstanbul'un Gizemleri",
+      "abstract": "Bu kitap, İstanbul'un tarihi sokaklarında gizlenmiş sırları ve efsaneleri keşfetmeye davet ediyor. Okuyucular, Bizans döneminden Osmanlı'ya, Cumhuriyet'in ilk yıllarından günümüze kadar uzanan bir zaman yolculuğuna çıkacaklar. Her bir taşın altında yatan hikayeler, bu şehrin nasıl bir medeniyetler beşiği olduğunu gözler önüne seriyor. İstanbul'un Gizemleri, tarih meraklıları için vazgeçilmez bir rehber niteliğinde.",
+      "publish_date": "2024-04-08",
+      "price": 54.99,
+      "stock": 150,
+      "categories": ["Tarih", "Efsaneler", "Keşif"],
+      "created_date": "2024-04-08",
+      "updated_date": "2024-04-08",
+      "created_by": 101,
+      "updated_by": 101,
+      "isactive": true
+    }
+  ],
+  "created_date": "2024-04-08",
+  "updated_date": "2024-04-08",
+  "created_by": 101,
+  "updated_by": 101,
+  "isactive": true
+}

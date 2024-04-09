@@ -1,0 +1,72 @@
+PUT /author-index
+{
+  "mappings": {
+    "properties": {
+      "first_name": {
+        "type": "text"
+      },
+      "last_name": {
+        "type": "text"
+      },
+      "birth_date": {
+        "type": "date"
+      },
+      "books": {
+        "type": "nested",
+        "properties": {
+          "_id": {
+            "type": "keyword"
+          },
+          "title": {
+            "type": "text"
+          },
+          "abstract": {
+            "type": "text"
+          },
+          "publish_date": {
+            "type": "date"
+          },
+          "price": {
+            "type": "double"
+          },
+          "stock": {
+            "type": "integer"
+          },
+          "categories": {
+            "type": "keyword"
+          },
+          "created_date": {
+            "type": "date"
+          },
+          "updated_date": {
+            "type": "date"
+          },
+          "created_by": {
+            "type": "integer"
+          },
+          "updated_by": {
+            "type": "integer"
+          },
+          "isactive": {
+            "type": "boolean"
+          }
+        }
+      },
+      "created_date": {
+        "type": "date"
+      },
+      "updated_date": {
+        "type": "date"
+      },
+      "created_by": {
+        "type": "integer"
+      },
+      "updated_by": {
+        "type": "integer"
+      },
+      "isactive": {
+        "type": "boolean"
+      }
+    }
+  }
+}
